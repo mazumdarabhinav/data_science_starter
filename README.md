@@ -26,3 +26,7 @@ while read requirement; do conda install --yes $requirement; done < requirement.
 
 # Things in WIP
 1. Jupyterhub for multiuser access from server
+
+# Open Issues
+1. Dockerize the Whole Env
+2. Make the env DL workable
